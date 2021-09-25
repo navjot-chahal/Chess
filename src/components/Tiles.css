@@ -1,0 +1,27 @@
+.tiles {
+  width: 5em;
+  height: 5em;
+}
+
+.blackTile {
+  background-color: #779556;
+}
+
+.whiteTile {
+  background-color: white;
+}
+
+.chesspiece {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.chesspiece:hover {
+  cursor: grab;
+}
+
+.chesspiece:active {
+  cursor: grabbing;
+}
